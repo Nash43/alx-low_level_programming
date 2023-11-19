@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <main.h>
+#include <string.h>
 
-int _islower(intc);
+int _islower(int c)
 {
 	return (c >= 'a' && c <= 'z');
 }
