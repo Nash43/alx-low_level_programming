@@ -3,9 +3,8 @@
 
 void print_name(char *name, void (*f)(char *));
 {
-	if (name == NULL || f == NULL)
+	printf("hello ,my name is %d", name);
 	return;
 
-	f(name);
 }
 
